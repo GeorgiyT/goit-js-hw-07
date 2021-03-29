@@ -7,7 +7,7 @@ const inputEl = document.querySelector("#name-input");
 const nameOutputEl = document.querySelector("#name-output");
 
 const printy = function (element) {
-  if (inputEl.value.length !== 0) {
+  if (inputEl.value !== "") {
     element.textContent = inputEl.value;
   } else {
     element.textContent = "незнакомец";
