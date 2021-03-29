@@ -1,0 +1,18 @@
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#gallery li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+#gallery img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
