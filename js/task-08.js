@@ -10,9 +10,9 @@ boxToInsert.style.display = "flex";
 boxToInsert.style.flexWrap = "wrap";
 
 const randomRGBColor = function () {
-  return `rgb(${Math.ceil(Math.random() * 255 - 1)},${Math.ceil(
-    Math.random() * 255 - 1
-  )},${Math.ceil(Math.random() * 255 - 1)})`;
+  return `rgb(${Math.ceil(Math.random() * 255)},${Math.ceil(
+    Math.random() * 255
+  )},${Math.ceil(Math.random() * 255)})`;
 };
 
 const createAndInsertDivs = function () {
